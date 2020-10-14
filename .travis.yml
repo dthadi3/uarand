@@ -1,3 +1,5 @@
 language: nix
-
+arch:
+  - AMD64
+  - ppc64le
 script: nix-shell --pure --command "make lint test"
